@@ -1,7 +1,7 @@
 <?php 
 namespace XpeedStudio;
 
-class Xs_Autoloader{
+class Autoloader{
 
     private $namespace;
 
@@ -13,6 +13,10 @@ class Xs_Autoloader{
 	 *
 	 * @since 1.0.0
 	 * @access public
+	 *
+	 * @param  string $namespace
+	 * @param  string $classdir
+	 * @return void
 	 */
 	public function __construct( $namespace = null, $classdir = '' ){
         if($namespace == null){

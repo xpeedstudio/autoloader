@@ -1,5 +1,5 @@
 {
-    "name": "xpeedstudio/xs-autoloader",
+    "name": "xpeedstudio/autoloader",
     "description": "An autoloader that follows the WordPress coding standard.",
     "version": "1.0.0",
     "type": "library",
@@ -14,7 +14,7 @@
         }
     ],
     "autoload": {
-        "files": ["src/xs-autoloader.php"]
+        "files": ["src/autoloader.php"]
     },
     "license": "GPL-3.0-or-later",
     "minimum-stability": "dev",
